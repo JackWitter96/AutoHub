@@ -1,0 +1,31 @@
+.contact {
+    padding: 100px;
+}
+
+.input-field {
+    border: 1px solid #ccd7e6;
+    border-radius: 3px;
+    color: #ababab;
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+    outline: none;
+    padding: 1.2rem 1.3rem;
+    width: 300px;
+}
+
+.submit-button {
+    width: 300px;
+}
+
+@media (max-width: 624px) {
+    .contact {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 624px) {
+    .input-field,
+    .submit-button {
+        width: 200px;
+    }
+}

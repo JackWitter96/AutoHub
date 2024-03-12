@@ -1,0 +1,25 @@
+.available-cars-container {
+    padding: 200px;
+    padding-top: 100px;
+}
+
+@media (max-width: 796px) {
+    .available-cars-container {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 639px) {
+    .car-info {
+        display: inline-block;
+        text-align: center;
+    }
+    .year,
+    .miles,
+    .cost {
+        text-align: center;
+    }
+    .icon {
+        display: inline;
+    }
+}

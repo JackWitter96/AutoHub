@@ -1,0 +1,25 @@
+.cover-image-section {
+    position: relative;
+}
+
+.cover-image-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 90%);
+}
+
+@media (max-width: 425px) {
+    .cover-image-text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    .cover-image-text {
+        font-size: 20px;
+    }
+}

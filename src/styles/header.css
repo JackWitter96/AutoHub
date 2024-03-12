@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 420px) {
+    .header-text-autohub {
+        font-size: 40px;
+    }
+}
